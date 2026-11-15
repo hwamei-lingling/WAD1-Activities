@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Interactive Score Tracker</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <main class="tracker">
+    <h1>Score Tracker</h1>
+
+    <p class="label">Current score</p>
+    <p id="val" class="score" aria-live="polite">0</p>
+
+    <div class="controls">
+      <button id="add" class="primary">Add point</button>
+      <button id="subtract" class="primary">Subtract</button>
+      <button id="reset" class="secondary">Reset</button>
+    </div>
+
+    <p id="msg" class="message">Keep going to raise your score!</p>
+  </main>
+</body>
+
+</html>
