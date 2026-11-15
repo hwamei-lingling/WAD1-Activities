@@ -1,4 +1,4 @@
-# Interactive Score Tracker
+# Activity 4: Interactive Score Tracker
 
 A simple score tracker built with HTML, CSS, and vanilla JavaScript. This is my first Git repository, created for the Week 4 lesson on version control and JavaScript logic.
 
@@ -24,7 +24,7 @@ A simple score tracker built with HTML, CSS, and vanilla JavaScript. This is my 
 ## How to run
 
 1. Download or clone this repository.
-2. Open `index.html` in any web browser.
+2. Open `activity-4/index.html` in any web browser.
 
 No installation is needed.
 
