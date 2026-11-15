@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dynamic Post Explorer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <main class="explorer">
+    <h1>Post Explorer</h1>
+
+    <div class="controls">
+      <button id="loadPosts" type="button" class="primary">Load posts</button>
+      <button id="retryButton" type="button" class="secondary" hidden>Retry</button>
+    </div>
+
+    <p id="status" class="status" aria-live="polite">Click the button to load the first 5 posts.</p>
+
+    <ul id="postList" class="post-list"></ul>
+  </main>
+</body>
+
+</html>
