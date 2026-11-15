@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student Registration Card</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <main class="card">
+    <h1>Student Registration</h1>
+
+    <p id="welcomeMessage" class="welcome" aria-live="polite">Welcome! Type your name below.</p>
+
+    <form id="studentForm">
+      <label for="nameInput">Name</label>
+      <input id="nameInput" type="text" placeholder="e.g. Maria Santos" autocomplete="off">
+
+      <label for="courseSelect">Course</label>
+      <select id="courseSelect">
+        <option value="">Choose a course</option>
+        <option value="Web Development">Web Development</option>
+        <option value="Information Technology">Information Technology</option>
+        <option value="Computer Science">Computer Science</option>
+        <option value="Multimedia Arts">Multimedia Arts</option>
+      </select>
+
+      <button type="submit" class="primary">Register</button>
+    </form>
+
+    <p id="registrationMessage" class="registration" aria-live="polite"></p>
+
+    <button id="themeButton" type="button" class="secondary">Toggle theme</button>
+    <p class="hint">Press Esc to clear the welcome message.</p>
+  </main>
+</body>
+
+</html>
